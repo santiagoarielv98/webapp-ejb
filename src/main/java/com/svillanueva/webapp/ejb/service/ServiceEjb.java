@@ -1,11 +1,11 @@
 package com.svillanueva.webapp.ejb.service;
 
 
-import jakarta.ejb.Stateful;
-import jakarta.enterprise.context.RequestScoped;
+import jakarta.ejb.Stateless;
+//import jakarta.enterprise.context.RequestScoped;
 
-@Stateful
-@RequestScoped
+@Stateless
+//@RequestScoped
 public class ServiceEjb {
 
     private int contador;
